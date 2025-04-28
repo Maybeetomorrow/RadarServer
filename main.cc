@@ -1,7 +1,7 @@
 #include "controllers/car_controller/car_controller.h"
-#include "utilities.h"
-#include "app_config.h"
-#include "sd_bus.h"
+#include "utilities/utilities.h"
+#include "app_config/app_config.h"
+#include "sd_bus/sd_bus.h"
 #include <drogon/drogon.h>
 #include <drogon/orm/DbClient.h>
 #include <csignal>

@@ -1,8 +1,9 @@
 #pragma once
 
+// Заголовочные файлы
 #include <drogon/HttpController.h>  // Базовый класс для HTTP контроллеров
 #include <drogon/drogon.h>          // Основная библиотека Drogon
-#include "../../car_struct.h"             // Структура CarDetails
+#include "../../struct_data/car_struct.h"             // Структура CarDetails
 #include <mutex>                    // Мьютекс для синхронизации
 #include <openssl/evp.h>            // OpenSSL функции шифрования
 #include <vector>                   // Контейнер vector

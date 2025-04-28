@@ -1,6 +1,6 @@
 #include "car_controller.h"
-#include "../../utilities.h"
-#include "../../sd_bus.h"
+#include "../../utilities/utilities.h"
+#include "../../sd_bus/sd_bus.h"
 #include <json/json.h>
 #include <fstream>
 #include <filesystem>

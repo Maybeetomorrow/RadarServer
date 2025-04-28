@@ -14,14 +14,14 @@ add_executable(${PROJECT_NAME}
     controllers/maintenance_controller/maintenance_controller.cc
     controllers/service_controller/service_controller.cc
     controllers/period_report_controller/period_report_controller.cc
-    utilities.cc
-    app_config.cc
+    utilities/utilities.cc
+    app_config/app_config.cc
     controllers/date_controller/date_controller.cc
     controllers/node_controller/node_controller.cc
     controllers/report_controller/report_controller.cc
     controllers/maintenance_report_controller/maintenance_report_controller.cc
     controllers/daily_report_controller/daily_report_controller.cc
-    sd_bus.cc
+    sd_bus/sd_bus.cc
 )
 
 # Подключение Drogon
