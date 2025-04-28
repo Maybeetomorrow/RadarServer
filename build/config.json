@@ -1,0 +1,15 @@
+{
+    "server": {
+        "listen_address": "0.0.0.0",
+        "port": 8080,
+        "threads": 4
+    },
+    "security": {
+        "allowed_origins": [
+            "http://localhost:*",
+            "http://127.0.0.1:*",
+            "http://192.168.1.*"
+        ],
+        "pbkdf2_iterations": 100000
+    }
+}
